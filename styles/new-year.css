@@ -317,6 +317,34 @@ body{
     line-height: 32px;
 }
 
+.images{
+    margin-top: 200px;
+    position: relative;
+}
+
+.img-1{
+    position: relative;
+    text-align: right;
+}
+
+.first{
+    position: absolute;
+    top: 90px;
+    left: 750px;
+    
+}
+
+.img-2{
+    position: relative;
+    text-align: right;
+}
+
+.third{
+    position: absolute;
+    top: -460px;
+    left: 30px;
+}
+
 .gifts{
     margin-bottom: 150px;
     margin-left: 280px;
