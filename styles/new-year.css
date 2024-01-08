@@ -497,23 +497,34 @@ body{
 }
 
 footer{
-    width: 100%;
+    width: 1600px;
     height: 609px;
     background: #070211;
     padding-top: 100px;
-    padding-left: 280px;
-    padding-right: 280px;
+    padding-left: 140px;
+    padding-right: 140px;
     margin: auto;
 }
 
-.hr{
-    margin: auto;
-}
+
 
 .foot-top{
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+}
+
+.address{
+    text-align: left;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.contact{
+    text-align: right;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -533,7 +544,24 @@ footer{
 .foot-down{
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+}
+
+.ft-dn-1{
+    position: relative;
+    top: 50px;
+    text-align: left;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ft-dn-2{
+    position: relative;
+    top: 50px;
+    text-align: right;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
