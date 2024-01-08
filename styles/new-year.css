@@ -311,7 +311,8 @@ body{
 }
 
 .func-text{
-    text-align: justify;
+    width: 1000px;
+    text-align: center;
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
@@ -319,6 +320,7 @@ body{
     font-style: normal;
     font-weight: 500;
     line-height: 32px;
+    margin: auto;
 }
 
 .images{
