@@ -274,7 +274,7 @@ body{
 
 .function{
     margin: auto;
-    margin-bottom: 150px;
+    margin-bottom: 400px;
 }
 
 .function-text{
@@ -324,9 +324,12 @@ body{
 }
 
 .images{
-    margin-top: 200px;
+    top: 200px;
     position: relative;
-    padding-right: 300px;
+    width: 1320px;
+    height: 616px;
+    margin: auto;
+    
 }
 
 .img-1{
@@ -338,12 +341,13 @@ body{
 .first{
     position: absolute;
     top: 90px;
-    left: 1000px;
+    left: 720px;
     
 }
 
 .second{
     top: 120px;
+    left: 120px;
 }
 
 .img-2{
@@ -354,7 +358,7 @@ body{
 .third{
     position: absolute;
     top: -460px;
-    left: 300px;
+    left: 40px;
 }
 
 .gifts{
