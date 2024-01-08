@@ -9,6 +9,9 @@
 
 body{
     background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .banner{
@@ -22,9 +25,9 @@ body{
     height: 600px;
     border-radius: 16px;
     align-items: center;
-    justify-content: center;  
-    margin: auto;
-    margin-bottom: 150px;
+    justify-content: center;
+    margin-left: 280px;
+    margin-right: 280px;
     margin-top: 70px;
 }
 
@@ -58,8 +61,8 @@ body{
     text-align: center;
     padding: 20px;
     margin-top: 100px;
-    margin: auto;
     margin-bottom: 150px;
+    
 }
 
 .discount-65{
@@ -104,8 +107,9 @@ body{
     width: 1320px;
     height: 600px;
     padding: 120px;
-    margin: auto;
     margin-bottom: 150px;
+    margin-left: 280px;
+    margin-right: 280px;
 }
 
 .welcome-text{
@@ -166,8 +170,9 @@ body{
     line-height: 56px;
     text-transform: capitalize;
     padding: 150px;
-    margin: auto;
     margin-bottom: 150px;
+    margin-left: 280px;
+    margin-right: 280px;
 }
 
 .event-text{
@@ -197,11 +202,16 @@ body{
 
 .offer{
     display: flex;
-    width: 1320px;
-    height: 482px;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
     justify-content: space-between;
-    margin: auto;
     margin-bottom: 150px;
+    margin-left: 280px;
+    margin-right: 280px;
+    padding-left: 1700px;
+    padding-right: 1700px;
+    gap: 60px;
 }
 
 .com-motto{
@@ -273,19 +283,19 @@ body{
 }
 
 .function{
-    margin: auto;
-    margin-bottom: 150px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
-.function-text{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
+
 
 .func-up{
     color: #070211;
     font-family: Inter;
+    text-align: center;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -294,6 +304,7 @@ body{
 
 .func-hol{
     color: #F00;
+    text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-style: normal;
@@ -303,6 +314,7 @@ body{
 
 .func-intro{
     color: #070211;
+    text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-style: normal;
@@ -311,7 +323,6 @@ body{
 }
 
 .func-text{
-    text-align: justify;
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
@@ -324,24 +335,20 @@ body{
 .images{
     margin-top: 200px;
     position: relative;
-    padding-right: 300px;
+    padding: 0px;
 }
 
 .img-1{
     position: relative;
     text-align: right;
-    top: 10px;
+    top: 20px;
 }
 
 .first{
     position: absolute;
     top: 90px;
-    left: 1000px;
+    left: 750px;
     
-}
-
-.second{
-    top: 120px;
 }
 
 .img-2{
@@ -352,19 +359,17 @@ body{
 .third{
     position: absolute;
     top: -460px;
-    left: 300px;
+    left: 30px;
 }
 
 .gifts{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto;
     margin-bottom: 150px;
 }
 
 .gift-up{
-    text-align: left;
     color: #F00;
     font-family: Inter;
     font-size: 24px;
@@ -409,12 +414,16 @@ body{
 }
 
 .subscribe{
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    align-items: center;
     padding: 90px;
     text-align: center;
     width: 1320px;
     height: 616px;
-    border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
+    
     margin: auto;
     margin-bottom: 150px;
 }
@@ -497,11 +506,6 @@ footer{
     padding-top: 100px;
     padding-left: 280px;
     padding-right: 280px;
-    margin: auto;
-}
-
-.hr{
-    margin: auto;
 }
 
 .foot-top{
